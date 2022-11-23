@@ -9,6 +9,7 @@ public class Mid3_411630907{
         double cost_1 = 0;
         double cost_2 = 0;
         double cost_3 = 0;
+        //package_1
         if(package_1>0 && package_1<=5){
             cost_1 = 4.5;
         }
@@ -18,6 +19,7 @@ public class Mid3_411630907{
         else{
             cost_1 = 7.5 + (package_1-7.5) * 0.5;
         }
+        //package_2
         if(package_2>0 && package_2<=5){
             cost_2 = 4.5;
         }
@@ -26,11 +28,12 @@ public class Mid3_411630907{
         }
         else{
             cost_2 = 7.5 + (package_2-7.5) * 0.5;
-        }
+        }   
+        //package_3
         if(package_3>0 && package_3<=5){
             cost_3 = 4.5;
         }
-        else if (package_3>5 && package_3<=10){
+        else if (package_1>5 && package_3<=10){
             cost_3 = 7.5;
         }
         else{
