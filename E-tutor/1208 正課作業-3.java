@@ -3,11 +3,12 @@ public class Main{
     public static void main(String[] args){      
         Scanner input  = new Scanner(System.in);      
         int number = input.nextInt();
-        int max = 0;
-        int sec_max = 0;
+        int max = number;
+        int sec_max = number;
         while(number!=-1){
             number = input.nextInt();
             if(number > max){
+                sec_max = max;
                 max = number;
             }
             if(number < max && number > sec_max){
