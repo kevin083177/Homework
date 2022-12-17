@@ -24,8 +24,8 @@ public class Main{
      */
     public static void main(String[] args){  //主程式
         Scanner input = new Scanner(System.in);  
-        String number = input.nextLine(); 
-        int length = number.length();  
+        String number = input.nextLine(); //A564 
+        int length = number.length();  //4
         int array[] = new int[length]; //array[] = new int[4]  
         double sum = 0;  
         for(int i=0; i<length; i++){   //4
