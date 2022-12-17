@@ -8,7 +8,7 @@ public class Main{
         while(number!=-1){
             number = input.nextInt();
             if(number > max){
-                sec_max = max;
+                //sec_max = max;
                 max = number;
             }
             if(number < max && number > sec_max){
