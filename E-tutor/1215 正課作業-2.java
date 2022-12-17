@@ -10,7 +10,7 @@ public class Main{
         else{  
             ten = num - '0';  
         }  
-        return ten;
+        return ten; //10
     }
     /*
         public static (回傳資料的值) (函數名稱)(要將甚麼東西進行轉換){
