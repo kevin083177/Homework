@@ -7,7 +7,7 @@ public class Main{
         for(int i=1; i<=number; i++){
             for(int j=number; j>=1; j--)
             if(j==1 && i==1){
-                System.out.print(j<=i ? j + "" : "  ");
+                System.out.print(j<=i ? j : "  ");
             }
             else{
                 System.out.print(j<=i ? j + " " : "  ");
