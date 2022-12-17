@@ -13,7 +13,7 @@ public class Main{
         return ten; //10
     }
     /*
-        public static (回傳資料的值) (函數名稱)(要將甚麼東西進行轉換){
+        public static (回傳的資料型態) (函數名稱)(要將甚麼東西進行轉換){
             宣告一個數
             return 那個數
         }
