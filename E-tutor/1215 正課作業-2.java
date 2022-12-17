@@ -19,7 +19,7 @@ public class Main{
         }
     */
     /*
-        array[] = new int [4];    {0,1,2,3}
+        array[] = new int[4];    [0,1,2,3]
         array[3] = 3;
      */
     public static void main(String[] args){  //主程式
@@ -32,7 +32,7 @@ public class Main{
             array[i] = toTen(number.charAt(i));  //toTen(A) = 10, array[0] = 10, array[1] = 5, array[2] = 6, array[3] = 4
         }
         for(int j=0; j<length; j++){  
-            sum += array[j] * Math.pow(16, length-j-1);  
+            sum += array[j] * Math.pow(16, length-j-1);  //10*16^3 5*16^2 6*16^1 4*16^0
         } 
 
         System.out.printf("%.0f\n", sum);  
