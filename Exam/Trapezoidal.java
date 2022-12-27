@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Trapezoidal{    
+public class trapezoidal{    
     public static void main(String[] args){    
         Scanner input  = new Scanner(System.in);  
         int upper = input.nextInt();
