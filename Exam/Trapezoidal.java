@@ -3,9 +3,9 @@ public class trapezoidal{
     public static void main(String[] args){    
         Scanner input  = new Scanner(System.in);  
         int upper = input.nextInt();
-        int lower = input.nextInt();
-        int height = lower - upper > 0 ? lower - upper : upper - lower;
-        boolean positive = lower - upper > 0 ? true : false;
+        int bottom = input.nextInt();
+        int height = bottom - upper > 0 ? bottom - upper : upper - bottom;
+        boolean positive = bottom - upper > 0 ? true : false;
 /*
           ***
          ****
