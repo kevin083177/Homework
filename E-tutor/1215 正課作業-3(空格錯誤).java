@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -14,8 +13,8 @@ public class Main {
                 else{
                     System.out.print(j<=i ? j + " " : "  ");
                 }
-            for(int k=2; k<i+1; k++){ //2<2
-                //System.out.print(k + "+"); //2<3 "2 " line 17
+            for(int k=2; k<=i; k++){ //2<2
+                //System.out.print(k + "_"); //2<3 "2 " line 17
                                              //2<4 "2 " 3<4 "3 " line 17
                                              //2<5 "2 "      "3 "       "4 " line 17
                 if(k % i == 0){
@@ -25,7 +24,6 @@ public class Main {
                     System.out.print(k + " ");
                 }
             }
-            
             System.out.println();
         }
     }
