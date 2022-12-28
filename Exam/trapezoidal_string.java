@@ -9,7 +9,7 @@ public class trapezoidal_string {
             for(int i=c; i<=n; i++){ //靠右正梯形 i:控制星星
                 System.out.println(" ".repeat(n-i) + "*".repeat(i));
             }
-            System.out.println("");
+            System.out.println(""); //這行沒任何用處 只是單純換行因為上下兩個梯形會同時輸出 怕搞混
             for(int i=c; i<=n; i++){ //靠左正梯形
                 System.out.println("*".repeat(i));
             }
@@ -18,7 +18,7 @@ public class trapezoidal_string {
             for(int i=0; i<n; i++){ //靠右倒梯形 i:控制空格
                 System.out.println(" ".repeat(i) + "*".repeat(c-i));
             }
-            System.out.println("");
+            System.out.println(""); //這行沒任何用處 只是單純換行因為上下兩個梯形會同時輸出 怕搞混
             for(int i=0; i<n; i++){ //靠左倒梯形
                 System.out.println("*".repeat(c-i));
             }
