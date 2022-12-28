@@ -5,7 +5,7 @@ public class max_time{
         int number = input.nextInt();
         int max = number;
         int count = 0; //設計數為0
-        while(number!=-1){ //輸入-1停止
+        while(number!=-1){ //輸入-1執行完下面後跳出while
             number = input.nextInt();
             if(number > max){
                 max = number;

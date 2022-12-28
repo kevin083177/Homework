@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 public class sin {
     public static int factorial(int n){
         int factorial = 1;
