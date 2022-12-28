@@ -6,6 +6,11 @@ public class trapezoidal_string {
         int c = input.nextInt(); //上底
         int n = input.nextInt(); //下底
         if(c<n){ //上底比較短
+            /*
+                  *** c
+                 ****
+                ***** n
+            */ 
             for(int i=c; i<=n; i++){ //靠右正梯形 i:控制星星
                 System.out.println(" ".repeat(n-i) + "*".repeat(i));
             }
@@ -15,6 +20,11 @@ public class trapezoidal_string {
             }
         }
         else{ //上底比較長
+            /*
+                ***** c
+                 ****
+                  *** n
+            */ 
             for(int i=0; i<n; i++){ //靠右倒梯形 i:控制空格
                 System.out.println(" ".repeat(i) + "*".repeat(c-i));
             }
