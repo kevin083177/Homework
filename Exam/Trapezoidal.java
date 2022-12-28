@@ -21,7 +21,7 @@ public class Trapezoidal {
                     System.out.printf("*");
                 }
                 System.out.println("");  
-            }  
+            }
 /*
         *****
          ****      靠右倒梯形
